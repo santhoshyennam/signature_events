@@ -1,0 +1,646 @@
+{
+    "home": {
+
+    },
+    "services": {
+        "title":["LET US","dazzle","AND INSPIRE YOU!"],
+        "description":"",
+        "services": [
+            {
+                "title":"Weddings",
+                "description":"Our passion lies in crafting an experience that becomes uniquely yours, etched into your memory, and shared with your loved ones forever. We have been building our reputation for years, perfecting the art of incomparable weddings.",
+                "list": ["On-Site Management","Mehendi","Lighting & Sound","Hari & Make up","Hotel room blocks","Invitations","Gifting","Transportation"],
+                "imageUrl":"/Images/service_1.jpg"
+            },
+            {
+                "title":"Decoration",
+                "description":"Transform your event space into a magical wonderland with our expert decoration services. From elegant floral arrangements to thematic decor, we create an enchanting ambiance that complements your vision and captivates your guests.",
+                "list": [
+                  "Floral Arrangements",
+                  "Balloon Decor",
+                  "Themed Decor",
+                  "Drapery and Backdrops",
+                  "Table Centerpieces",
+                  "Candlelight Decor",
+                  "LED Lighting Effects"
+                ],
+                "imageUrl":"/Images/decor_2.jpg"
+            },
+            {
+                "title":"Photography",
+                "description":"Capture the essence of your special moments with our professional photography services. Whether it's candid shots, studio portraits, or drone photography, we ensure every detail is preserved, allowing you to relive the magic through stunning visuals.",
+                "list": [
+                  "Candid Photography",
+                  "Studio Photography",
+                  "Drone Photography",
+                  "Photo Booth with Props",
+                  "Event Highlight Reel",
+                  "Green Screen",
+                  "Professional Portraits"
+                ],
+                "imageUrl":"/Images/service_3.jpg"
+            },
+            {
+                "title":"Dinner Party",
+                "description":"Elevate your dinner parties with our exquisite dining experiences. From fine dining to interactive food stations and specialty cocktails, we curate a culinary journey that delights your taste buds and creates a memorable atmosphere.",
+                "list": [
+                  "Fine Dining Experience",
+                  "Multi-Course Meal",
+                  "Buffet Setup",
+                  "Interactive Food Stations",
+                  "Chef's Table",
+                  "Specialty Cocktails",
+                  "Dessert Bar"
+                ],
+                "imageUrl":"/Images/service_4.jpg"
+            },
+            {
+                "title":"Entertainment",
+                "description":"Immerse your guests in a world of entertainment. From live bands and DJs to magicians, acrobats, and virtual reality experiences, we bring excitement and joy to your event, ensuring everyone has a fantastic time.",
+                "list": [
+                  "Live Band or Musician",
+                  "DJ and Dance Floor",
+                  "Magician or Illusionist",
+                  "Comedians",
+                  "Acrobats or Circus Acts",
+                  "Interactive Games",
+                  "Virtual Reality"
+                ],
+                "imageUrl":"/Images/service_5.jpg"
+            },
+            {
+                "title":"Birthdays",
+                "description":"Celebrate birthdays in style with our personalized touch. Themed cakes, customized invitations, balloon arches, and interactive games make every birthday special. Let us turn your vision into a memorable reality.",
+                "list": [
+                  "Themed Birthday Cake",
+                  "Customized Invitations",
+                  "Balloon Arch and Decor",
+                  "Personalized Party Favors",
+                  "Entertainment (Clowns)",
+                  "Games and Activities",
+                  "DIY Craft Stations"
+                ],
+                "imageUrl":"/Images/service_6.jpg"
+            }
+        ]
+
+    },
+    "gallery": [
+        [
+            {
+                "id":"1",
+                "imageUrl":"/Images/decor_1.jpg",
+                "title":"Wedding",
+                "text1":"Avinash & Kirthi",
+                "text2":"Hyderabad, India"
+            },
+            {
+                "id":"2",
+                "imageUrl":"/Images/decor_2.jpg",
+                "title":"Birthday",
+                "text1":"Lahari Bowrampet",
+                "text2":"Missouri, USA"
+            },
+            {
+                "id":"3",
+                "imageUrl":"/Images/decor_3.jpg",
+                "title":"Engagement",
+                "text1":"Vishal & Srinidhi",
+                "text2":"Hyderabad, India"
+            },
+            {
+                "id":"4",
+                "imageUrl":"/Images/decor_4.jpg",
+                "title":"Decor",
+                "text1":"Rahul Jangam",
+                "text2":"Seattle, USA"
+            },
+            {
+                "id":"5",
+                "imageUrl":"/Images/consultation.png",
+                "title":"Wedding",
+                "text1":"Jashwanth & Swathi",
+                "text2":"Texas, USA"
+            },
+            {
+                "id":"6",
+                "imageUrl":"/Images/decor_5.jpg",
+                "title":"Birthday",
+                "text1":"Rohan Dhamshala",
+                "text2":"Ohio, USA"
+            }
+        ],
+        [
+            {
+                "id":"1",
+                "imageUrl":"/Images/decor_21.jpeg",
+                "title":"WEDDING",
+                "text1":"Avinash & Kirthi",
+                "text2":"Hyderabad, India"
+            },
+            {
+                "id":"2",
+                "imageUrl":"/Images/decor_22.jpeg",
+                "title":"Birthday",
+                "text1":"Lahari Bowrampet",
+                "text2":"Missouri, USA"
+            },
+            {
+                "id":"3",
+                "imageUrl":"/Images/decor_23.jpeg",
+                "title":"Engagement",
+                "text1":"Vishal & Srinidhi",
+                "text2":"Hyderabad, India"
+            },
+            {
+                "id":"4",
+                "imageUrl":"/Images/decor_24.jpeg",
+                "title":"Decor",
+                "text1":"Rahul Jangam",
+                "text2":"Seattle, USA"
+            },
+            {
+                "id":"5",
+                "imageUrl":"/Images/consultation.png",
+                "title":"Wedding",
+                "text1":"Jashwanth & Swathi",
+                "text2":"Texas, USA"
+            },
+            {
+                "id":"6",
+                "imageUrl":"/Images/decor_25.jpeg",
+                "title":"Birthday",
+                "text1":"Rohan Dhamshala",
+                "text2":"Ohio, USA"
+            }
+        ],
+        [
+            {
+                "id":"21",
+                "imageUrl":"/Images/decor_11.jpeg",
+                "title":"WEDDING",
+                "text1":"Avinash & Kirthi",
+                "text2":"Hyderabad, India"
+            },
+            {
+                "id":"22",
+                "imageUrl":"/Images/decor_12.jpeg",
+                "title":"Birthday",
+                "text1":"Lahari Bowrampet",
+                "text2":"Missouri, USA"
+            },
+            {
+                "id":"23",
+                "imageUrl":"/Images/decor_13.jpeg",
+                "title":"Engagement",
+                "text1":"Vishal & Srinidhi",
+                "text2":"Hyderabad, India"
+            },
+            {
+                "id":"24",
+                "imageUrl":"/Images/decor_14.jpeg",
+                "title":"Decor",
+                "text1":"Rahul Jangam",
+                "text2":"Seattle, USA"
+            },
+            {
+                "id":"25",
+                "imageUrl":"/Images/consultation.png",
+                "title":"Wedding",
+                "text1":"Jashwanth & Swathi",
+                "text2":"Texas, USA"
+            },
+            {
+                "id":"26",
+                "imageUrl":"/Images/decor_15.jpeg",
+                "title":"Birthday",
+                "text1":"Rohan Dhamshala",
+                "text2":"Ohio, USA"
+            }
+        ],
+        [
+
+        ],
+        [
+        ],
+        [
+
+        ]
+    ],
+    "testimonials": {
+        "title":"Discover the heartwarming stories and feedback from our clients. We take pride in the smiles we've brought to their faces and the unforgettable memories we've helped create.",
+        "peopleTitle":"Our High ticket testimonials",
+        "people": [
+            {
+                "imageUrl":"/Images/person.png",
+                "name":"Avinash",
+                "description":"“I recently attended a birthday party organized by this team, and it was beyond amazing! The decorations were lively, the entertainment was top-notch, and the overall atmosphere was festive. Truly a memorable experience!”",
+                "rating":"5"
+            },
+            {
+                "imageUrl":"/Images/person.png",
+                "name":"Siddharth",
+                "description":"“The event planning team did a fantastic job with my wedding. The decorations were exquisite, and every detail was taken care of. Our special day turned out even more magical than we could have imagined. Highly recommended!”",
+                "rating":"4"
+            },
+            {
+                "imageUrl":"/Images/person.png",
+                "name":"Kirthi Shetty",
+                "description":"“I had the pleasure of having this team plan my corporate dinner party. The attention to detail was impeccable, and the decorations were sophisticated yet fun. The guests were impressed, and I received many compliments. Great job!”",
+                "rating":"5"
+            },
+            {
+                "imageUrl":"/Images/person.png",
+                "name":"Amareesh",
+                "description":"“I hired this team for my daughter's birthday, and they exceeded my expectations! The decorations were adorable, and the entertainment kept the kids engaged. It was a stress-free and enjoyable celebration. Thank you!”",
+                "rating":"5"
+            }
+        ],
+        "carousel": [
+            {
+                "description": "Absolutely stunning! Your event decorations turned a simple venue into a magical wonderland. Kudos to your team!",
+                "title":"Avinash & Kirthi",
+                "eventName":"Wedding",
+                "imageUrl":"/Images/decor_1.jpg"
+            },
+            {
+                "description": "Our guests couldn't stop talking about how beautiful the decorations were. You truly transformed the space into a dreamy paradise!",
+                "title":"Sudheer & Lavanya",
+                "eventName":"Engagement",
+                "imageUrl":"/Images/decor_6.jpg"
+            },
+            {
+                "description": "Your team has a unique talent for bringing ideas to life. The event decorations were not only beautiful but also reflected the theme perfectly.",
+                "title":"Vishal & Bindu",
+                "eventName":"Wedding",
+                "imageUrl":"/Images/decor_9.jpg"
+            },
+            {
+                "description": "The creativity and thoughtfulness put into your event decorations were evident in every detail. It added a touch of magic to our celebration.",
+                "title":"Vineela Ambati",
+                "eventName":"Birthday",
+                "imageUrl":"/Images/decor_8.jpg"
+            }
+        ]
+
+    },
+    "galleryImages":[
+        {
+
+        },
+        {
+           "id":"1",
+           "title":"WEDDING",
+            "text1":"Avinash & Kirthi",
+            "text2":"Hyderabad, India",
+            "images": [
+                {
+                  "src": "/Images/decor_13.jpeg",
+                  "alt": "...",
+                  "width": 152,
+                  "height": 203
+                },
+                {
+                  "src": "/Images/decor_14.jpeg",
+                  "alt": "...",
+                  "width": 460,
+                  "height": 259
+                },
+                {
+                  "src": "/Images/decor_15.jpeg",
+                  "alt": "...",
+                  "width": 460,
+                  "height": 259
+                },
+                {
+                  "src": "/Images/decor_16.jpeg",
+                  "alt": "...",
+                  "width": 320,
+                  "height": 400
+                },
+                {
+                  "src": "/Images/decor_17.jpeg",
+                  "alt": "...",
+                  "width": 320,
+                  "height": 400
+                },
+                {
+                  "src": "/Images/decor_18.jpeg",
+                  "alt": "...",
+                  "width": 152,
+                  "height": 203
+                },
+                {
+                  "src": "/Images/decor_19.jpeg",
+                  "alt": "...",
+                  "width": 152,
+                  "height": 203
+                },
+                {
+                  "src": "/Images/decor_24.jpeg",
+                  "alt": "...",
+                  "width": 307,
+                  "height": 222
+                },
+                {
+                  "src": "/Images/decor_25.jpeg",
+                  "alt": "...",
+                  "width": 388,
+                  "height": 259
+                },
+                {
+                  "src": "/Images/decor_26.jpeg",
+                  "alt": "...",
+                  "width": 460,
+                  "height": 259
+                },
+                {
+                  "src": "/Images/decor_27.jpeg",
+                  "alt": "...",
+                  "width": 305,
+                  "height": 203
+                },
+                {
+                  "src": "/Images/decor_28.jpeg",
+                  "alt": "...",
+                  "width": 307,
+                  "height": 222
+                },
+                {
+                  "src": "/Images/decor_29.jpeg",
+                  "alt": "...",
+                  "width": 520,
+                  "height": 274
+                },
+                {
+                  "src": "/Images/decor_30.jpeg",
+                  "alt": "...",
+                  "width": 388,
+                  "height": 259
+                },
+                {
+                  "src": "/Images/decor_31.jpeg",
+                  "alt": "...",
+                  "width": 355,
+                  "height": 200
+                },
+                {
+                  "src": "/Images/decor_32.jpeg",
+                  "alt": "...",
+                  "width": 355,
+                  "height": 200
+                },
+                {
+                  "src": "/Images/decor_33.jpeg",
+                  "alt": "...",
+                  "width": 299,
+                  "height": 200
+                },
+                {
+                  "src": "/Images/decor_34.jpeg",
+                  "alt": "...",
+                  "width": 460,
+                  "height": 259
+                },
+                {
+                  "src": "/Images/decor_35.jpeg",
+                  "alt": "...",
+                  "width": 355,
+                  "height": 200
+                }
+              ]
+        },
+        {
+          "id":"2",
+          "title":"Birthday",
+          "text1":"Lahari Bowrampet",
+          "text2":"Missouri, USA",
+          "images": [
+            {
+              "src": "/Images/decor_2.jpg",
+              "alt": "...",
+              "width": 320,
+              "height": 500
+            },
+            {
+              "src": "/Images/decor_3.jpg",
+              "alt": "...",
+              "width": 320,
+              "height": 400
+            },
+            {
+              "src": "/Images/decor_4.jpg",
+              "alt": "...",
+              "width": 152,
+              "height": 203
+            },
+            {
+              "src": "/Images/decor_5.jpg",
+              "alt": "...",
+              "width": 460,
+              "height": 259
+            },
+            {
+              "src": "/Images/decor_6.jpg",
+              "alt": "...",
+              "width": 320,
+              "height": 174
+            },
+            {
+              "src": "/Images/decor_7.jpg",
+              "alt": "...",
+              "width": 460,
+              "height": 259
+            },
+            {
+              "src": "/Images/decor_8.jpg",
+              "alt": "...",
+              "width": 305,
+              "height": 203
+            },
+            {
+              "src": "/Images/decor_9.jpg",
+              "alt": "...",
+              "width": 152,
+              "height": 203
+            },
+            {
+              "src": "/Images/decor_10.jpg",
+              "alt": "...",
+              "width": 520,
+              "height": 274
+            },
+            {
+              "src": "/Images/decor_1.jpg",
+              "alt": "...",
+              "width": 388,
+              "height": 259
+            },
+            {
+              "src": "/Images/decor_11.jpeg",
+              "alt": "...",
+              "width": 320,
+              "height": 500
+            },
+            {
+              "src": "/Images/decor_12.jpeg",
+              "alt": "...",
+              "width": 320,
+              "height": 400
+            },
+            {
+              "src": "/Images/decor_20.jpeg",
+              "alt": "...",
+              "width": 320,
+              "height": 400
+            },
+            {
+              "src": "/Images/decor_21.jpeg",
+              "alt": "...",
+              "width": 330,
+              "height": 220
+            },
+            {
+              "src": "/Images/decor_22.jpeg",
+              "alt": "...",
+              "width": 360,
+              "height": 259
+            },
+            {
+              "src": "/Images/decor_23.jpeg",
+              "alt": "...",
+              "width": 330,
+              "height": 220
+            },
+            {
+              "src": "/Images/decor_13.jpeg",
+              "alt": "...",
+              "width": 152,
+              "height": 203
+            },
+            {
+              "src": "/Images/decor_14.jpeg",
+              "alt": "...",
+              "width": 460,
+              "height": 259
+            },
+            {
+              "src": "/Images/decor_15.jpeg",
+              "alt": "...",
+              "width": 460,
+              "height": 259
+            }
+          ]
+        }
+        
+    ],
+    "contactDetails":{
+        "title":"Let’s Talk",
+        "description":"Looking to bring a big idea to life? We are eager to help! Reach out and share your project with us – we're excited to assist in making it a stunning reality.",
+        "email":"signatureeventsdecormaster@gmail.com",
+        "mailto":"mailto:signatureeventsdecormaster@gmail.com",
+        "instagram":"https://instagram.com/signa_tureevents?igshid=MXdxbnl2ejJhdmc0ZA==",
+        "whatsapp":"+16149150780",
+        "facebook":"https://instagram.com/signa_tureevents?igshid=MXdxbnl2ejJhdmc0ZA==",
+        "twitter":"https://instagram.com/signa_tureevents?igshid=MXdxbnl2ejJhdmc0ZA=="
+    },
+    "about": {
+        "title": "About Us",
+        "description1":"Our adventure begins with a dream, a dream of making your favorite fantasies come true. With our passionate team, we set out to craft celebrations that are not only gorgeous and smooth but also unforgettable. ",
+        "description2":"Imagine us as your fairy godparents, waving our magic wands to sprinkle a little extra sparkle on your special day. We're here to turn “once upon a time” into “happily ever after,” with a touch of whimsy and lots of love. Let's make some magic together! 🌟✨",
+        "imageUrl": "/Images/decor_1.jpg"
+    },
+    "homeLayout": {
+        "title": ["Experience","unparalleled","elegance","& luxury in every","moment!"],
+        "description1": "Creating Celebrations that Resonate with Opulence,  One Event at a Time.",
+        "description2": "We make your vision, transformed into an grandeur reality with our best in class wedding planning & design services."
+    },
+    "homeImage": {
+        "description":"Infuse your events with emotion and unforgettable moments using our heartfelt decor. From intimate gatherings to grand celebrations, let Signature events create the ambiance that turns memories into cherished stories.",
+        "owner": "BY DEEPTHI REDDY"
+    },
+    "homeEvents": {
+        "title1": "OUR PROMISE",
+        "title2": ["EVERY","event","BEGINS WITH A STORY."],
+        "steps": [
+             {
+                "title1":"Initial Consultation",
+                "title2": "Getting to Know you",
+                "description": "We embarked on a journey with a clear vision – to bring your most lavish dreams to life through elegant and meticulously crafted events. Our team, composed of highly skilled professionals, is passionately dedicated to making this grand vision a reality.",
+                "imageUrl":"/Images/consultation.png"
+            },
+             {
+                "title1":"Detailed Planning",
+                "title2": "Every detail matters",
+                "imageUrl":"/Images/event_2.jpg",
+                "description":"In the world of luxury events, every detail counts. We pride ourselves on our ability to seamlessly blend the grandiose with the intricate – from the grand design themes to the minutest seating arrangements. Our commitment is to ensure every aspect of your event is executed flawlessly, creating an unforgettable experience."
+
+            },
+            {
+                "title1":"The Big Day Here",
+                "title2": "It’s your time to shine",
+                "imageUrl":"/Images/event_3.jpg",
+                "description":"The moment you've envisioned is finally here. It's time for you to step into the spotlight and bask in the glory of an event that unfolds with unmatched sophistication. Rest assured, our team is behind the scenes, orchestrating every element to perfection, ensuring that your special day is nothing less than a masterpiece of elegance and seamless execution."
+
+            }
+        ]
+    },
+    "homeServices": {
+        "title1": "SERVICES",
+        "title2": ["LET US","dazzle","AND INSPIRE YOU!"],
+        "imageGrid": [
+            {
+                "id":"1",
+                "imageUrl": "/Images/service_1.jpg",
+                "title":"Weddings"
+            },
+            {
+                "id":"2",
+                "imageUrl": "/Images/decor_2.jpg",
+                "title":"Decoration"
+            },
+            {
+                "id":"3",
+                "imageUrl": "/Images/service_3.jpg",
+                "title":"Photography"
+            },
+            {
+                "id":"4",
+                "imageUrl": "/Images/service_4.jpg",
+                "title":"Catering"
+            },
+            {
+                "id":"5",
+                "imageUrl": "/Images/service_5.jpg",
+                "title":"Entertainment"
+            },
+            {
+                "id":"6",
+                "imageUrl": "/Images/service_6.jpg",
+                "title":"Dinner Party"
+            }
+        ]
+    },
+    "submitForm": {
+        "title":"Plan your next event with us!",
+        "description":"Got questions about us? Our team is here to help. Contact us for quick and friendly support."
+    },
+    "banner": {
+        "about": {
+            "title1": "we are",
+            "title2": "Signature Events"
+        },
+        "services": {
+            "title1": "our",
+            "title2": "SERVICES"
+        },
+        "testimonials": {
+            "title1": "Feedback &",
+            "title2": "TESTIMONIALS"
+        },
+        "gallery": {
+            "title1":"Get Inspired",
+            "title2":"Gallery of Work"
+        }
+    }
+}

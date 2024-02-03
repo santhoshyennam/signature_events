@@ -1,0 +1,30 @@
+.galleryNavbar {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+
+.galleryListItem {
+  color: var(--BIEGE, #c59771);
+  text-align: center;
+  font-family: Satoshi Variable;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128%; /* 20.48px */
+}
+
+.galleryNavbarHr {
+  width: 100%;
+  height: 1px;
+  background-color: #c59771;
+  padding-left: 40px;
+}
+
+.gallerynavbarCol {
+  border-bottom: 1px solid #952043;
+  color: #952043;
+}
+
+.galleyListItemSelected {
+  color: #952043;
+}

@@ -1,0 +1,57 @@
+.galleryItem {
+  padding-top: 30px;
+  padding-right: 15px;
+}
+
+.galleryItemTitle {
+  color: #fff;
+  text-align: center;
+  font-family: Satoshi Variable;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  background-color: #0b6970;
+  border-radius: 2px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 8px 8px 8px 8px;
+}
+
+.galleryItemImage {
+  border-radius: 20px;
+  width: 200px;
+  height:280px;
+  object-fit: cover;
+}
+
+.galleryItemText1 {
+  color: var(--MAROON, #952043);
+  text-align: center;
+  font-family: Satoshi Variable;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 114.286% */
+  text-align: start !important;
+}
+
+.galleryItemContent {
+  margin-top: 10px;
+}
+
+.galleryItemText2 {
+  color: var(--MAROON, #952043);
+  text-align: center;
+  font-family: Satoshi Variable;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-align: start !important;
+}
+
+.galleryItemRow {
+  padding-left: 10px;
+}

@@ -1,0 +1,121 @@
+.letsTalk {
+  color: var(--MAROON, #952043);
+  font-family: Satoshi;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: start !important;
+}
+
+.contactContent1 {
+  color: #000;
+  font-family: Satoshi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: start !important;
+}
+
+.contactLeftView,
+.contactRightView {
+  padding: 50px;
+}
+
+.emailHeading,
+.socialHeading {
+  color: var(--MAROON, #952043);
+  font-family: Abu Dhabi;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  letter-spacing: 0.96px;
+  text-align: start !important;
+  padding-top: 54px;
+}
+
+.emailDescription {
+  color: #000;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: start !important;
+}
+
+.socialMediaLink {
+  color: #000;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-align: start !important;
+  padding-top: 10px;
+}
+
+.contactSubmitButton {
+  display: flex;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 32px;
+  background-color: var(--MAROON, #952043);
+  margin-top: 10px;
+  width: 80%;
+}
+
+.inputTitle {
+  color: #000;
+  font-family: Satoshi;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  text-align: start !important;
+}
+
+.inputBox {
+  border-radius: 12px;
+  border: 1px solid #e7dbc1;
+  background: #fffbf2;
+  margin-top: 12px;
+  margin-bottom: 28px;
+  margin-left: 6px;
+  height: 40px;
+  width: 80%;
+}
+
+.messageBox {
+  border-radius: 12px;
+  border: 1px solid #e7dbc1;
+  background: #fffbf2;
+  margin-top: 12px;
+  margin-bottom: 28px;
+  margin-left: 6px;
+  width: 80%;
+  padding-top: 10px;
+  height: 100px;
+}
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+  .emailDescription,.socialMediaLink {
+    font-size: 20px;
+    /* Add other desktop-specific styles here */
+  }
+}
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .emailDescription,.socialMediaLink {
+    font-size: 14px;
+    /* Add other mobile-specific styles here */
+  }
+}

@@ -1,0 +1,29 @@
+.servicesTitle {
+  color: var(--MAROON, #952043);
+  text-align: center;
+  font-family: Satoshi Variable;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 128%; /* 40.96px */
+}
+
+.styleService {
+  color: var(--MAROON, #952043);
+  font-family: Abu Dhabi;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116%; /* 83.52px */
+}
+
+.serviceVr {
+  background-color: #952043;
+  width: 2px;
+  height: 64px;
+  align-items: center;
+}
+
+.homeServiceImages {
+  margin-top: 24px;
+}

@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #FFF5E0;
+  color: #952043;
 }
 
 .App-logo {
@@ -36,3 +38,18 @@
     transform: rotate(360deg);
   }
 }
+
+.bottom_buttons {
+  position: fixed;
+  bottom: 60px;
+  right: 5px;
+  /* background-color: green; */
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  width: 80px;
+  height: 80px;
+}
+

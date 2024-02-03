@@ -1,0 +1,30 @@
+.eventDescriptionImage {
+  border-radius: 10px;
+}
+
+.eventDescription {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.eventDescription1 {
+  color: var(--Gray-1, #333);
+  font-family: Satoshi Variable;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138%; /* 27.6px */
+  padding-top: 20px;
+  text-align: start !important;
+}
+
+.eventDescriptionContactButton {
+  display: flex;
+  padding-top: 12px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 32px;
+  background-color: var(--MAROON, #952043);
+  margin-top: 50px;
+}

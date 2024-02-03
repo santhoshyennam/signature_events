@@ -1,0 +1,53 @@
+.eventStep {
+  border-radius: 16px;
+  border: 1px solid var(--MAROON, #952043);
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.eventNumber {
+  display: flex;
+  width: 72px;
+  padding: 17px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  background: #f3d9c4;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.eventStepTitle1 {
+  color: var(--MAROON, #952043);
+  text-align: center;
+  font-family: Satoshi Variable;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 128%; /* 30.72px */
+  padding-top: 24px;
+  margin-bottom: 24px;
+  text-align: start !important;
+}
+
+.eventStepTitle2 {
+  color: var(--MAROON, #952043);
+  font-family: Satoshi Variable;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128%; /* 20.48px */
+  text-align: start !important;
+
+}
+
+.number {
+  color: var(--MAROON, #952043);
+  text-align: center;
+  font-family: Mona Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 128%; /* 40.96px */
+}

@@ -1,0 +1,14 @@
+.testimonialsPeople {
+  margin-top: 96px;
+  margin-bottom: 64px;
+}
+
+.testimonialsPeopleTitle {
+  color: var(--MAROON, #952043);
+  text-align: center;
+  font-family: Satoshi Variable;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 128%; /* 40.96px */
+}

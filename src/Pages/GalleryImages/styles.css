@@ -1,0 +1,81 @@
+.galleryImagesContainer {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding-bottom: 64px;
+}
+
+.galleryImagesHeading {
+    display: flex;
+}
+
+.galleryImagesText {
+    color: var(--MAROON, #952043);
+text-align: center;
+font-family: Satoshi Variable;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 125% */
+margin-left: 20px;
+}
+
+.backArrow {
+    padding-top:6px;
+}
+
+.galleryImagesTitle {
+    color: #fff;
+    text-align: center;
+    font-family: Satoshi Variable;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    background-color: #0b6970;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top:8px;
+    margin-left:20px;
+    height: 40px;
+  }
+
+  .galleryImagesLocation {
+    color: var(--MAROON, #952043);
+text-align: center;
+font-family: Satoshi Variable;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+text-align: start !important;
+margin-left: 32px;
+margin-top: -15px;
+  }
+
+  .galleryImagesHr {
+    width: 100%;
+    height: 1px;
+    background-color: #c59771;
+    margin-top: 40px;
+  }
+
+  .photos {
+    padding-top: 56px;
+  }
+
+  /* Media query for desktop */
+@media (min-width: 768px) {
+  .galleryImagesText {
+    font-size: 32px;
+    /* Add other desktop-specific styles here */
+  }
+}
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .galleryImagesText {
+    font-size: 20px;
+    /* Add other mobile-specific styles here */
+  }
+}

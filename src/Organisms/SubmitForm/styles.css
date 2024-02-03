@@ -1,0 +1,73 @@
+.submitBackgroundImage {
+  background-image: url("../../../public/Images/submit_background.png");
+  /* background-size: cover; */
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+   /* Use 100vh for full viewport height */
+  text-align: center; /* Optional: Center content */
+  color: white; /* Optional: Text color */
+  border-radius: 10px;
+  margin-right: 160px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.content {
+  padding-bottom: 104px;
+  height: auto;
+}
+
+.submitTitle {
+  color: var(--Gray-6, #f2f2f2);
+  text-align: center;
+  font-family: Satoshi Variable;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+  letter-spacing: -0.8px;
+}
+
+.description {
+  color: var(--Gray-6, #f2f2f2);
+  text-align: center;
+  font-family: Satoshi Variable;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 128%; /* 25.6px */
+}
+
+.submitButton {
+  display: flex;
+  /* width: 100px; */
+  height: 40px;
+  padding: 16px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 68px;
+  background: #008993;
+  color: #FFFFFF;
+}
+
+.submit {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.submitInputBox {
+  padding-left:20px;
+  border-radius: 12px;
+  border: 1px solid #e7dbc1;
+  background: #fffbf2;
+  margin-bottom: 12px;
+  margin-left: 6px;
+  height: 40px;
+  font-size: 20px;
+  width: 100%;
+}

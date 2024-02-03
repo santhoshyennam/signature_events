@@ -1,0 +1,77 @@
+.serviceCardImage {
+  border-radius: 20px;
+  width: 300px;
+}
+
+.serviceCard {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /* margin-left:30px; */
+}
+
+.serviceCardBody {
+  margin-left: 20px;
+}
+
+.serviceCard1 {
+  color: var(--MAROON, #952043);
+  font-family: Satoshi Variable;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 55.68px */
+  align-content: center;
+  text-align: start !important;
+  margin-top:16px;
+}
+
+.serviceCardDescription1,
+.serviceCardDescription2 {
+  font-family: Satoshi Variable;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 50;
+  line-height: 100%; /* 27.6px */
+  padding-top: 8px;
+  text-align: start !important;
+  margin-left: 10px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0; /* Remove default padding */
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px; /* Adjust margin as needed for spacing */
+  list-style-type: disc;
+}
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: #952043;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-right: 12px; /* Adjust margin as needed for spacing */
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.list-item-content {
+  padding-top: 8px;
+  line-height: 5px;
+  width: auto;
+}
+
+.list-items {
+  display: flex;
+  width: 100%;
+
+}

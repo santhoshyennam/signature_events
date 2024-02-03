@@ -1,0 +1,34 @@
+.gallerySuggestionsTitle {
+    color: var(--MAROON, #952043);
+font-family: Satoshi Variable;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 120% */
+text-align: start !important;
+}
+
+.gallerySuggestions {
+    margin-top: 64px;
+    padding-bottom: 64px
+}
+
+.gallerySuggestionsHr {
+    width: 100%;
+    height: 1px;
+    background-color: #c59771;
+    margin-top: 40px;
+}
+
+.gallerySuggestionsButton {
+    border-radius: 12px;
+border: 1px solid var(--MAROON, #952043);
+display: flex;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+padding-left:8px;
+padding-right:8px;
+width: 100px;
+}

@@ -1,0 +1,10 @@
+.headerContainer {
+    background-color: #FFF5E0;
+    border-bottom: 1px solid #952043;
+    padding-left: 30px;
+}
+
+.navbar {
+    background-color: #FFF5E0; /* Replace 'yourColor' with the desired color code or name */
+    height: auto;
+  }

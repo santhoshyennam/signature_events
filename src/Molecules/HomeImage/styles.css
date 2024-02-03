@@ -1,0 +1,35 @@
+.backgroundImage {
+  background-image: url("../../../public/Images/home_background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh; /* Use 100vh for full viewport height */
+  width: 100%;
+  text-align: center; /* Optional: Center content */
+  color: white; /* Optional: Text color */
+}
+
+.owner {
+  color: #fff;
+  font-family: Satoshi Variable;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 100% */
+  letter-spacing: 6px;
+  margin-top: 8px;
+}
+
+.content {
+  color: #fff;
+  text-align: center;
+  font-family: Satoshi Variable;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  align-self: stretch;
+  line-height: 24px; /* 150% */
+  margin-top: 80px;
+}
