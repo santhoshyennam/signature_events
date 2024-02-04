@@ -10,7 +10,7 @@ text-align: start !important;
 
 .gallerySuggestions {
     margin-top: 64px;
-    padding-bottom: 64px
+    padding-bottom: 64px;
 }
 
 .gallerySuggestionsHr {
@@ -32,3 +32,25 @@ padding-left:8px;
 padding-right:8px;
 width: 100px;
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+    .gallerySuggestionsTitle {
+    font-size: 28px;
+    }
+    .gallerySuggestionsButton {
+    font-size: 12px;
+    margin-top: 4px;
+    }
+    .gallerySuggestions {
+        margin-top: 30px;
+        padding-bottom: 0px;
+    }
+ }
+
+

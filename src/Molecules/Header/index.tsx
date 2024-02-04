@@ -10,6 +10,7 @@ function Header() {
   const [currentStep, setCurrentStep] = useState(-1);
   const [navbarExpanded, setNavbarExpanded] = useState(false);
   const steps = ["SERVICES", "TESTIMONIALS", "GALLERY", "ABOUT"];
+  const mobileViewSteps = ["HOME","SERVICES", "TESTIMONIALS", "GALLERY", "ABOUT"];
 
   const handleNavClick = () => {
     setNavbarExpanded(false);
@@ -18,10 +19,10 @@ function Header() {
 
   return (
     <div className="headerContainer">
-      <Container>
+      <Container className="webview">
         <Row className="HeaderRow">
           <Col lg={4} sm={0}></Col>
-          <Navbar expand="lg" expanded={navbarExpanded}>
+          <Navbar expand="sm" expanded={navbarExpanded}>
             <Container>
               <Navbar.Brand>
                 <Col
@@ -99,6 +100,7 @@ function Header() {
                         paddingTop: "10px",
                         cursor: "pointer",
                         color: "var(--MAROON, #952043)",
+                  
                       }}
                     />
                   </Nav.Link>
@@ -108,6 +110,39 @@ function Header() {
           </Navbar>
         </Row>
       </Container>
+      <div className="mobileview">
+      {mobileViewSteps.map((step, index) => (
+                      <Col
+                        lg={"auto"}
+                        sm={"auto"}
+                        xs={'auto'}
+                        className="title"
+                        key={index}
+                        onClick={() => {
+                          handleNavClick();
+                          setCurrentStep(index);
+                        }}
+                      >
+                        <Link
+                          to={"/" + step.toLowerCase()}
+                          style={{ textDecoration: "none", color: "inherit" }}
+                        >
+                          <p
+                            style={{
+                              paddingTop: "24px",
+                              cursor: "pointer",
+                              borderBottom:
+                                currentStep === index ? "1px solid #952043" : "",
+                              color: "var(--MAROON, #952043)",
+                              fontSize: '14px'
+                            }}
+                          >
+                            {step}
+                          </p>
+                        </Link>
+                      </Col>
+                  ))}
+      </div>
     </div>
   );
 }

@@ -16,7 +16,6 @@ function HomeServices() {
         <Col>
           <p className="servicesTitle">
           {data.homeServices.title2[0]} <span className="styleService">{data.homeServices.title2[1]} </span> {data.homeServices.title2[2]}
-            YOU.
           </p>
         </Col>
       </Row>
@@ -33,7 +32,7 @@ function HomeServices() {
             {
               data.homeServices.imageGrid.map((item)=> {
                 return (
-                  <Col lg={4} style={{ paddingTop: "8px", paddingBottom: "8px" }}>
+                  <Col lg={4} xs={6} style={{ paddingTop: "8px", paddingBottom: "8px" }}>
                   <HomeServicesImage title={item.title} imageUrl={item.imageUrl} />
                 </Col>
                 )

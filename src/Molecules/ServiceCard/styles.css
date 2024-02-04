@@ -75,3 +75,38 @@ li {
   width: 100%;
 
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .serviceCardImage {
+    width: 200px;
+  }
+  .serviceCard1 {
+    font-size: 22px;
+  }
+  .serviceCardDescription1,
+  .serviceCardDescription2 {
+    font-size: 16px;
+    font-weight: 50;
+    margin-left: 0px;
+  }
+  .serviceCardDescription1 {
+    line-height: 22px;
+  }
+  .list-item-content {
+    font-size: 14px;
+  }
+  .serviceCardBody {
+    margin-left: 0px;
+  }
+  .serviceCard {
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+ }
+

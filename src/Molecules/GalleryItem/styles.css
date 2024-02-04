@@ -19,7 +19,7 @@
   padding: 8px 8px 8px 8px;
 }
 
-.galleryItemImage {
+.galleryItemImagexz {
   border-radius: 20px;
   width: 200px;
   height:280px;
@@ -55,3 +55,29 @@
 .galleryItemRow {
   padding-left: 10px;
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+  
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .galleryItem {
+    padding-top: 30px;
+  }
+  .galleryItemText1 {
+    font-size: 16px;
+  }
+  .galleryItemImagexz {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .galleryItem {
+    padding-right: 0px;
+  }
+ }
+
+
+

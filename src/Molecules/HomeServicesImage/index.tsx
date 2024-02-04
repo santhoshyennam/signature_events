@@ -19,11 +19,11 @@ const HomeServicesImage: React.FC<HomeServiceImageProps> = ({
           <Col>
             <p className="homeServicesTitle">{title}</p>
           </Col>
-          <Col>
+          {/* <Col>
             <div className="arrowIcon">
               <Arrow />
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

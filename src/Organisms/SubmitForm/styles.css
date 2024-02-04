@@ -71,3 +71,25 @@
   font-size: 20px;
   width: 100%;
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .submitTitle {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .submitInputBox {
+    height: 40px;
+    font-size: 14px;
+    width: 80%;
+  }
+ }
+
+

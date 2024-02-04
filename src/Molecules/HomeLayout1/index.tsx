@@ -13,7 +13,7 @@ function HomeLayout1() {
               src="Images/consultation.png"
               alt=".."
               className="homeLayoutImage"
-              width={"90%"}
+              
             />
           </Col>
           <Col lg={7} className="homeLayoutBody">

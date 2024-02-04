@@ -41,3 +41,21 @@
   margin-bottom: 25px; 
   margin-right: 36px; 
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .homeServicesBackgroundImage {
+    height: 150px; 
+  }
+  .homeServicesTitle {
+    font-size: 16px;
+  }
+ }
+
+
+

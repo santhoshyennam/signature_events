@@ -19,3 +19,18 @@
   padding-top: 64px;
   padding-bottom: 64px;
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .testimonialsTitle {
+    font-size: 18px;
+  }
+  .testimonialVr {
+    height: 30px;
+  }
+ }

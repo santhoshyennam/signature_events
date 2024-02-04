@@ -22,7 +22,7 @@ const TestimonialsPeopleCard: React.FC<TestimonialsPeopleCardProps> = (
       <Container>
         <Row>
           <Col lg={12}>
-            <img src={imageUrl} alt="..." />
+            <img src={imageUrl} alt="..." className="testimonialPeopleImage" />
           </Col>
         </Row>
         <Row>

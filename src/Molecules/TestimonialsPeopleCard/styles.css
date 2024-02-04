@@ -26,3 +26,27 @@
   font-weight: 400;
   line-height: 150%; /* 24px */
 }
+/* Media query for desktop */
+@media (min-width: 768px) {
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .testimonialPeopleImage {
+    width: 100px;
+  }
+  .testimonialsPeopleCard {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .personName {
+    font-size: 20px;
+  }
+  .testimonialsPeopleCardDescription {
+    color: var(--SLATE, #222);
+    font-size: 14px;
+  }
+ }
+
