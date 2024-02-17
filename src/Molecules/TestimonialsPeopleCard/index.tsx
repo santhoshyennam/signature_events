@@ -20,11 +20,11 @@ const TestimonialsPeopleCard: React.FC<TestimonialsPeopleCardProps> = (
   return (
     <div className="testimonialsPeopleCard">
       <Container>
-        <Row>
+        {/* <Row>
           <Col lg={12}>
             <img src={imageUrl} alt="..." className="testimonialPeopleImage" />
           </Col>
-        </Row>
+        </Row> */}
         <Row>
           <Col>
             <p className="personName">{title}</p>

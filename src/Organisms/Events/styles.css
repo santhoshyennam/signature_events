@@ -6,6 +6,9 @@
   font-weight: 500;
   line-height: 128%; /* 40.96px */
 }
+.event_title {
+  padding-top: 40px;
+}
 
 .styleEvent {
   color: var(--MAROON, #952043);
@@ -47,6 +50,7 @@
   .styleEvent {
     font-size: 28px;
   }
+ 
  }
 
 

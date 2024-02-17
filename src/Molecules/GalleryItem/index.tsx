@@ -20,7 +20,7 @@ const GalleryItem:React.FC<GalleryItemProps> = ({
         <Col>
           <Row>
             <img
-              src={'/images/'+folder+'/1.jpg'}
+              src={'/Images/'+folder+'/1.jpg'}
               alt="..."
               className="galleryItemImagexz"
             />

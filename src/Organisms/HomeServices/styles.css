@@ -30,13 +30,16 @@
 
 /* Media query for desktop */
 @media (min-width: 768px) {
+  .HomeServices {
+    margin-top: 50px;
+  }
 }
 
 
 /* Media query for mobile */
 @media (max-width: 767px) {
   .HomeServices {
-    margin-top: -30px;
+    margin-top: 50px;
   }
  }
 

@@ -3,7 +3,7 @@ import './styles.css'
 import SubmitForm from '../../Organisms/SubmitForm';
 import BackArrow from '../../Atoms/BackArrow';
 import GallerySuggestions from '../../Organisms/GallerySuggestions';
-import { useParams,useNavigate } from 'react-router-dom';
+import { useParams,useNavigate, Link } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 import data from "../../Utils/data.json"
 
@@ -41,9 +41,9 @@ function GalleryImages() {
       <div>
       <Container className='galleryImagesContainer'>
         <Row>
-          <Col lg={6} className='galleryImagesHeading'>
+          <Col className='galleryImagesHeading'>
             <div className='backArrow' onClick={goBack} style={{cursor:'pointer'}}><BackArrow color='#952043'/></div>
-            <p className='galleryImagesText'>{index.toUpperCase()}</p>
+            <div className='galleryImagesText'><p >{index.toUpperCase()}</p></div>
           </Col>
         </Row>
         <Row className='galleryItems'>
@@ -51,7 +51,9 @@ function GalleryImages() {
           imagesArray.map((item)=> {
             return (
               <Col lg={4} sm={4} md={4} xs={6}>
-              <img src={"/images/"+index+"/"+item} alt="..."  className="galleryItemImage"/>
+              <a href={"/Images/"+index+"/"+item}>
+                <img src={"/Images/"+index+"/"+item} alt="..."  className="galleryItemImage"/>
+              </a>
               </Col>
             )
           })

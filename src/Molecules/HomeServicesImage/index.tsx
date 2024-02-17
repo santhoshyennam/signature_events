@@ -14,18 +14,7 @@ const HomeServicesImage: React.FC<HomeServiceImageProps> = ({
 }) => {
   return (
     <div className="homeServicesBackgroundImage" style={{backgroundImage:'url('+imageUrl+')'}}>
-      <Container className="d-flex align-items-end">
-        <Row>
-          <Col>
             <p className="homeServicesTitle">{title}</p>
-          </Col>
-          {/* <Col>
-            <div className="arrowIcon">
-              <Arrow />
-            </div>
-          </Col> */}
-        </Row>
-      </Container>
     </div>
   );
 }

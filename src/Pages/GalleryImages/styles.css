@@ -76,13 +76,13 @@ margin-top: -15px;
   width: 95%;
   margin-top: 20px;
   border-radius: 20px;
+  object-fit: cover;
 }
 
 /* Media query for mobile */
 @media (max-width: 767px) {
   .galleryImagesText {
     font-size: 20px;
-    /* Add other mobile-specific styles here */
   }
   .galleryItemImage {
     margin-bottom: 10px;

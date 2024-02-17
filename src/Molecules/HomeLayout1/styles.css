@@ -3,6 +3,8 @@
   padding-top: 32px;
   padding-bottom: 32px;
   width: 90%;
+  height: 400px;
+  object-fit: cover;
 }
 
 .homeLayout1 {
@@ -95,6 +97,7 @@
 .homeLayoutImage {
   border-radius: 10px;
   width: 90%;
+  height: 300px;
 }
  }
 

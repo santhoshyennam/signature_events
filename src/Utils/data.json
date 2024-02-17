@@ -55,16 +55,14 @@
                 "imageUrl":"/Images/service_4.jpg"
             },
             {
-                "title":"Entertainment",
-                "description":"Immerse your guests in a world of entertainment. From live bands and DJs to magicians, acrobats, and virtual reality experiences, we bring excitement and joy to your event, ensuring everyone has a fantastic time.",
+                "title":"Rentals",
+                "description":"Renting has never been easier than with  Signature events Rental services . And let’s be honest: why buy when you can rent?  with Us, We will work closely with you in selecting the right rentals for your specific needs.  We invite you to come visit me for a one-of-a-kind rental experience with us add great Charm to your wedding, graduation, picnic, or special event.",
                 "list": [
-                  "Live Band or Musician",
-                  "DJ and Dance Floor",
-                  "Magician or Illusionist",
-                  "Comedians",
-                  "Acrobats or Circus Acts",
-                  "Interactive Games",
-                  "Virtual Reality"
+                  "Floral arrangements",
+                  "Ambient lighting",
+                  "Furniture Rentals",
+                  "LED displays",
+                  "On-site coordinators"
                 ],
                 "imageUrl":"/Images/service_5.jpg"
             },
@@ -117,7 +115,7 @@
             },
             {
                 "id":"5",
-                "imageUrl":"/Images/consultation.png",
+                "imageUrl":"/Images/consultation.jpg",
                 "title":"Wedding",
                 "text1":"Jashwanth & Swathi",
                 "text2":"Texas, USA"
@@ -161,7 +159,7 @@
             },
             {
                 "id":"5",
-                "imageUrl":"/Images/consultation.png",
+                "imageUrl":"/Images/consultation.jpg",
                 "title":"Wedding",
                 "text1":"Jashwanth & Swathi",
                 "text2":"Texas, USA"
@@ -205,7 +203,7 @@
             },
             {
                 "id":"25",
-                "imageUrl":"/Images/consultation.png",
+                "imageUrl":"/Images/consultation.jpg",
                 "title":"Wedding",
                 "text1":"Jashwanth & Swathi",
                 "text2":"Texas, USA"
@@ -245,7 +243,7 @@
             },
             {
                 "imageUrl":"/Images/person.png",
-                "name":"Kirthi Shetty",
+                "name":"Praseeda Garlapati",
                 "description":"“I had the pleasure of having this team plan my corporate dinner party. The attention to detail was impeccable, and the decorations were sophisticated yet fun. The guests were impressed, and I received many compliments. Great job!”",
                 "rating":"5"
             },
@@ -317,7 +315,7 @@
                 "title1":"Initial Consultation",
                 "title2": "Getting to Know you",
                 "description": "We embarked on a journey with a clear vision – to bring your most lavish dreams to life through elegant and meticulously crafted events. Our team, composed of highly skilled professionals, is passionately dedicated to making this grand vision a reality.",
-                "imageUrl":"/Images/consultation.png"
+                "imageUrl":"/Images/wedding/pic3.jpg"
             },
              {
                 "title1":"Detailed Planning",

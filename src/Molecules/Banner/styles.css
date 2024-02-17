@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'pacifico';
-  src: url('../../../public/fonts/Pacifico-Regular.ttf') format('truetype'); /* Adjust the path and format accordingly */
-  font-weight: normal;
-  font-style: normal;
-}
+
   
 .bannerText1,
 .bannerText2 {
@@ -43,6 +38,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   padding-top: 25px;
 }
+
 .bannerText1 {
   color: var(--MAROON, #952043);
   font-family: Abu Dhabi;
