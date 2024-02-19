@@ -28,7 +28,7 @@ function ServiceContent() {
         {
           data.services.services.map((service) =>{
             return (
-              <Col lg={4}>
+              <Col lg={4} sm={4} xs={12}>
               <ServiceCard title={service.title} description={service.description} imageUrl={service.imageUrl} list={service.list} />
               </Col>
             )

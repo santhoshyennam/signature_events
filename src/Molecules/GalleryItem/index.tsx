@@ -7,14 +7,12 @@ import { Link } from "react-router-dom";
 
 interface GalleryItemProps {
   id: string;
-  imageUrl: string;
   title:string;
-  text1: string;
-  text2: string;
+  folder: string;
 }
 
 const GalleryItem:React.FC<GalleryItemProps> = ({
-  id,imageUrl,title,text1,text2
+  id,title,folder
 }) => {
   return (
     <div className="galleryItem" key={id}>
@@ -22,29 +20,19 @@ const GalleryItem:React.FC<GalleryItemProps> = ({
         <Col>
           <Row>
             <img
-              src={imageUrl}
+              src={'/Images/'+folder+'/1.jpg'}
               alt="..."
-              className="galleryItemImage"
+              className="galleryItemImagexz"
             />
           </Row>
-          <Row className="galleryItemRow">
-            <Col lg={4} sm={2} md={2} xs={5}>
-              <p className="galleryItemTitle">{title}</p>
-            </Col>
-          </Row>
-          <Row className="galleryItemRow">
+          <Row className="galleryItemRow" style={{marginTop:'16px'}}>
             <Col lg={10} sm={10} md={10} xs={10} className="galleryItemContent">
-              <p className="galleryItemText1">{text1}</p>
+              <p className="galleryItemText1">{title}</p>
             </Col>
             <Col lg={2} sm={2} md={2} xs={2} style={{marginTop:'4px'}}>
-              <Link to={"/galleryImages/"+id}>
+              <Link to={"/galleryImages/"+folder}>
               <Arrow color={"#952043"} />
               </Link>
-            </Col>
-          </Row>
-          <Row className="galleryItemRow">
-            <Col className="galleryItemContent">
-              <p className="galleryItemText2">{text2}</p>
             </Col>
           </Row>
         </Col>

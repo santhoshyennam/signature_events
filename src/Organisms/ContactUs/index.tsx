@@ -171,16 +171,16 @@ function ContactUs() {
                 </button>
                 </Col>
               </Row>
-              <Row style={{ marginTop: '10px'}}>
+              { error !== '' && <Row style={{ marginTop: '10px'}}>
               <Col lg={12}>
-            { error !== '' && <AlertView setShow={setError} title="You got an error!" description={error} variant="danger" />}
+             <AlertView setShow={setError} title="You got an error!" description={error} variant="danger" />
               </Col>
-              </Row>
-              <Row style={{ marginTop: '10px'}}>
+              </Row>}
+             { success !== '' && <Row style={{ marginTop: '10px'}}>
               <Col lg={12}>
-            { success !== '' && <AlertView setShow={setSuccess} title="Congrats!" description={success} variant="success" />}
+             <AlertView setShow={setSuccess} title="Congrats!" description={success} variant="success" />
               </Col>
-              </Row>
+              </Row>}
             </div>
           </Col>
         </Row>

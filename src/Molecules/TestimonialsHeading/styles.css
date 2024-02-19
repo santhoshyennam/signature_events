@@ -2,9 +2,9 @@
   color: var(--MAROON, #952043);
   text-align: center;
   font-family: Satoshi Variable;
-  font-size: 24px;
+  font-size: 32px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 128%; /* 30.72px */
 }
 
@@ -19,3 +19,19 @@
   padding-top: 64px;
   padding-bottom: 64px;
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .testimonialsTitle {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .testimonialVr {
+    height: 30px;
+  }
+ }

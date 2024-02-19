@@ -10,10 +10,10 @@ function HomeLayout1() {
         <Row>
           <Col lg={5}>
             <img
-              src="Images/consultation.png"
+              src="/Images/pic28.jpg"
               alt=".."
               className="homeLayoutImage"
-              width={"90%"}
+              style={{ borderRadius: '20px'}}
             />
           </Col>
           <Col lg={7} className="homeLayoutBody">

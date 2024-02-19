@@ -49,3 +49,29 @@
   line-height: 24px; /* 150% */
   text-align: start !important;
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .carouselBackgroundImage {
+    height: 70vh; /* Use 100vh for full viewport height */
+  }
+  .carouselDescription {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .carouselText1 {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 0px;
+  }
+  .carouselText2 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+ }
+

@@ -22,10 +22,11 @@
   color: #fff;
   text-align: center;
   font-family: Satoshi Variable;
-  font-size: 28px;
-  font-style: normal;
+  font-size: 32px;
+  font-style: bold;
   font-weight: 500;
   line-height: 32px;
+
 }
 .homeServicesBackgroundImage .container {
   position: absolute;
@@ -41,3 +42,22 @@
   margin-bottom: 25px; 
   margin-right: 36px; 
 }
+
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .homeServicesBackgroundImage {
+    height: 150px;
+  }
+  .homeServicesTitle {
+    font-size: 20px;
+  }
+ }
+
+
+

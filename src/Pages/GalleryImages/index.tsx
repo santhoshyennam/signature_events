@@ -3,29 +3,28 @@ import './styles.css'
 import SubmitForm from '../../Organisms/SubmitForm';
 import BackArrow from '../../Atoms/BackArrow';
 import GallerySuggestions from '../../Organisms/GallerySuggestions';
-import PhotoAlbum from 'react-photo-album';
-import ImageAtom from '../../Atoms/Image';
+import { useParams,useNavigate, Link } from 'react-router-dom';
+import { useEffect, useRef, useState } from 'react';
 import data from "../../Utils/data.json"
-import { useParams,useNavigate } from 'react-router-dom';
-import { useEffect, useRef } from 'react';
+
+type GalleryImages = {
+  [key: string]: string[];
+};
 
 function GalleryImages() {
 
   const { id } = useParams();
   const prevMyPathParam = useRef(id);
-  const index: number = parseInt(id || "0", 10);
-  const content = data.galleryImages[index];
-  const images = [   {
-    "src": "/Images/decor_13.jpeg",
-    "alt": "...",
-    "width": 152,
-    "height": 203
-  }]
+  const index: string = id || "birthday"
   const navigate = useNavigate();
-
+  const [imagesArray,setImagesArray] = useState<String[]>([]);
   const goBack = () => {
     navigate(-1);
   };
+
+  useEffect(()=>{
+    setImagesArray( (data.galleryImages as GalleryImages)[index])
+  },[index])
 
   useEffect(() => {
     // Check if myPathParam has changed
@@ -42,27 +41,23 @@ function GalleryImages() {
       <div>
       <Container className='galleryImagesContainer'>
         <Row>
-          <Col lg={6} className='galleryImagesHeading'>
+          <Col className='galleryImagesHeading'>
             <div className='backArrow' onClick={goBack} style={{cursor:'pointer'}}><BackArrow color='#952043'/></div>
-            <p className='galleryImagesText'>{content.text1}</p>
-            <p className="galleryImagesTitle">{content.title}</p>
+            <div className='galleryImagesText'><p >{index.toUpperCase()}</p></div>
           </Col>
         </Row>
-        <Row>
-        <Col>
-            <p className='galleryImagesLocation'>{content.text2}</p>
-          </Col>
-        </Row>
-        <Row className='photos'>
-        <Col>
-            <PhotoAlbum
-              renderPhoto={({ imageProps: { src, alt, style, ...restImageProps } }) => (
-                <ImageAtom src={src} alt={alt} style={style} link={`/${src}`} />
-              )}
-              photos={content.images || images} // Slice images for the current page
-              layout={"masonry"}
-            />
-            </Col>
+        <Row className='galleryItems'>
+        {
+          imagesArray.map((item)=> {
+            return (
+              <Col lg={4} sm={4} md={4} xs={6}>
+              <a href={"/Images/"+index+"/"+item}>
+                <img src={"/Images/"+index+"/"+item} alt="..."  className="galleryItemImage"/>
+              </a>
+              </Col>
+            )
+          })
+        }
         </Row>
       </Container>
       <div className="galleryImagesHr"></div>

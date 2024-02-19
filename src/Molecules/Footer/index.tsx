@@ -21,9 +21,9 @@ function Footer() {
           {
             steps.map((step)=> {
               return (
-                <Col lg={"auto"} className="title" style={{ cursor: 'pointer'}}>
+                <Col lg={"auto"} xs={3} className="title" style={{ cursor: 'pointer'}}>
                   <Link to={"/"+step.toLowerCase()} style={{textDecoration:'none',color:'inherit'}} >
-                <p style={{ paddingTop: "24px" }}>{step}</p>
+                <p style={{ paddingTop: "10px" }}>{step}</p>
                 </Link>
               </Col>
               )
@@ -38,10 +38,10 @@ function Footer() {
             <Row className="justify-content-md-center">
               <Col lg={12} md={12} sm={12}>
                 <Link to={data.contactDetails.mailto}>
-                <img src="Images/mail.png" alt=".." />
+                <img src="/Images/mail.png" alt=".." />
                 </Link>
                 <Link to={data.contactDetails.instagram}>
-                <img src="Images/instagram.png" alt=".." style={{ marginLeft: "40px" }} />
+                <img src="/Images/instagram.png" alt=".." className="instaIcon" />
                   </Link>
                   
               </Col>
@@ -50,13 +50,13 @@ function Footer() {
         </Row>
         <div className="hr"></div>
         <Row>
-          <Col lg={2}>
+          <Col lg={2} xs={6}>
             <p> Terms & Conditions </p>
           </Col>
-          <Col lg={1}>
+          <Col lg={1} xs={1}>
             <div className="vr"></div>
           </Col>
-          <Col lg={2}>
+          <Col lg={2} xs={5}>
             <p>Privacy Policy</p>
           </Col>
           <Col lg={7}>

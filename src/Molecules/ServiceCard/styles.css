@@ -30,11 +30,9 @@
   font-family: Satoshi Variable;
   font-size: 20px;
   font-style: normal;
-  font-weight: 50;
   line-height: 100%; /* 27.6px */
   padding-top: 8px;
   text-align: start !important;
-  margin-left: 10px;
 }
 ul {
   list-style-type: none;
@@ -54,7 +52,7 @@ li {
   border-radius: 50%;
   display: inline-block;
   margin-bottom: 8px;
-  margin-right: 12px; /* Adjust margin as needed for spacing */
+  margin-right: 6px; /* Adjust margin as needed for spacing */
 }
 
 .list-item {
@@ -75,3 +73,37 @@ li {
   width: 100%;
 
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .serviceCardImage {
+    width: 200px;
+  }
+  .serviceCard1 {
+    font-size: 22px;
+  }
+  .serviceCardDescription1,
+  .serviceCardDescription2 {
+    font-size: 16px;
+    margin-left: 0px;
+  }
+  .serviceCardDescription1 {
+    line-height: 22px;
+  }
+  .list-item-content {
+    font-size: 14px;
+  }
+  .serviceCardBody {
+    margin-left: 0px;
+  }
+  .serviceCard {
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+ }
+

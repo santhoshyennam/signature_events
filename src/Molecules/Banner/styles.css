@@ -1,19 +1,19 @@
-.backgroundBanner {
-  position: relative;
-  background-image: url("../../../public/Images/banner.png");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  height: 200px;
-  width: 100%;
-  text-align: start;
-  color: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-  padding-top: 40px;
-}
 
+  
+.bannerText1,
+.bannerText2 {
+  position: relative; /* Ensure that the text is not affected by the backdrop-filter */
+  z-index: 1; /* Place the text above the background */
+}
+.bannerText2 {
+  color: var(--MAROON, #952043);
+  font-family: Abu Dhabi;
+  font-size: 40px;
+  font-style: normal;
+  margin-left: 40px;
+  font-family:'Times New Roman', Times, serif;
+}
+  
 .backgroundBanner::before {
   content: "";
   position: absolute;
@@ -24,28 +24,58 @@
   background: #f3d0b2; /* Your desired background color */
   opacity: 0.6; /* Adjust the opacity as needed */
 }
+.backgroundBanner {
+  position: relative;
+  background-image: url("../../../public/Images/banner.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  text-align: start;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding-top: 25px;
+}
 
 .bannerText1 {
   color: var(--MAROON, #952043);
   font-family: Abu Dhabi;
-  font-size: 30px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 116%; /* 64.96px */
+  font-family:'Times New Roman', Times, serif;
+}
+/* Media query for desktop */
+@media (min-width: 768px) {
+  .backgroundBanner {
+    height: 200px;
+  }
+  
+  .bannerText1 {
+    font-size: 44px;
+    font-weight: 400;
+  }
+  
+  .bannerText2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 116%; /* 64.96px */
+  }
 }
 
-.bannerText2 {
-  color: var(--MAROON, #952043);
-  font-family: Abu Dhabi;
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 116%; /* 64.96px */
-  margin-left: 40px;
-}
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .backgroundBanner {
+    height: 110px;
+  }
+  
+  .bannerText1 {
+    font-size: 26px;
+  }
+  
+  .bannerText2 {
+    font-size: 30px;
+    line-height: 20%; /* 64.96px */
 
-.bannerText1,
-.bannerText2 {
-  position: relative; /* Ensure that the text is not affected by the backdrop-filter */
-  z-index: 1; /* Place the text above the background */
+  }
 }

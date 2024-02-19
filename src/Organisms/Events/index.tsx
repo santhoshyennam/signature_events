@@ -7,7 +7,7 @@ function Events() {
   return (
     <div className="events">
       <Container>
-      <Row>
+      <Row className="event_title">
         <Col>
           <p>{data.homeEvents.title1}</p>
         </Col>

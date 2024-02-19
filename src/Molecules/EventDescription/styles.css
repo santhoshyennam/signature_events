@@ -1,16 +1,13 @@
 .eventDescriptionImage {
   border-radius: 10px;
-}
-
-.eventDescription {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  height: 300px;
+  object-fit: cover;
+  width: 70%;
 }
 
 .eventDescription1 {
   color: var(--Gray-1, #333);
   font-family: Satoshi Variable;
-  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 138%; /* 27.6px */
@@ -26,5 +23,35 @@
   color: #ffffff;
   border-radius: 32px;
   background-color: var(--MAROON, #952043);
-  margin-top: 50px;
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+  .eventDescription {
+    padding-top: 32px;
+  }
+  .eventDescription1 {
+    font-size: 20px;
+  }
+  .eventDescriptionContactButton {
+    margin-top: 50px;
+  }
+  .eventDescription {
+    padding-bottom: 32px;
+  }  
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .eventDescriptionContactButton {
+    margin-top: 20px;
+  }
+  .eventDescriptionImage {
+    width: 100%;
+    height: 300px;
+  }
+ }
+
+
+

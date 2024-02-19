@@ -8,3 +8,27 @@
     background-color: #FFF5E0; /* Replace 'yourColor' with the desired color code or name */
     height: auto;
   }
+
+  /* Media query for desktop */
+@media (min-width: 768px) {
+    .webview {
+        display: visible ;
+    }
+    .mobileview {
+        display: none;
+    }
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+    .webview {
+        display: none ;
+    }
+    .mobileview {
+        display: visible;
+        display: flex;
+        justify-content: space-around;
+        margin-left: -20px;
+    }
+ }

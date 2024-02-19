@@ -1,28 +1,17 @@
 .homeLayoutImage {
-  border-radius: 10px;
+  border-radius: 20px;
   padding-top: 32px;
   padding-bottom: 32px;
-}
-
-.homeLayout {
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.homeLayoutBody {
-  /* padding-left: 20px; */
-  padding-top: 32px;
-  padding-bottom: 32px;
+  width: 90%;
+  height: 400px;
+  object-fit: cover;
 }
 
 .homeLayout1 {
   color: var(--MAROON, #952043);
   font-family: Satoshi Variable;
-  font-size: 40px;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 55.68px */
   align-content: center;
   text-align: start !important;
   padding-left: 40px;
@@ -30,25 +19,17 @@
 
 .homeLayoutQuoteButton {
   display: flex;
-  padding-top: 12px;
   justify-content: center;
   align-items: center;
   color: #ffffff;
   border-radius: 32px;
   background-color: var(--MAROON, #952043);
-  margin-top: 20px;
-  margin-left:36px;
-}
-
-.homeLayoutTitle {
-  padding-left: 36px;
 }
 
 .homeLayoutDescription1,
 .homeLayoutDescription2 {
   color: var(--Gray-1, #333);
   font-family: Satoshi Variable;
-  font-size: 20px;
   font-style: normal;
   font-weight: 50;
   line-height: 100%; /* 27.6px */
@@ -63,3 +44,61 @@
   margin-top: 30px;
   margin-bottom: 28px;
 }
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+  .homeLayout1 {
+    font-size: 40px;
+    line-height: 30px; /* 55.68px */
+  }
+  .homeLayout {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .homeLayoutBody {
+    /* padding-left: 20px; */
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .homeLayoutTitle {
+    padding-left: 36px;
+  }
+  .homeLayoutQuoteButton {
+    padding-top: 12px;
+    margin-top: 20px;
+    margin-left:36px;
+  }
+  .homeLayoutDescription1,
+.homeLayoutDescription2 {
+  font-size: 20px;
+}
+}
+
+
+/* Media query for mobile */
+@media (max-width: 767px) {
+  .homeLayout1 {
+    font-size: 24px;
+    line-height: 16px; /* 55.68px */
+  }
+  .homeLayoutTitle {
+    padding-left: 20px;
+  }
+  .homeLayoutQuoteButton {
+    padding-top: 12px;
+    margin-left:20px;
+    margin-right:20px;
+  }
+  .homeLayoutDescription1,
+.homeLayoutDescription2 {
+  font-size: 18px;
+}
+.homeLayoutImage {
+  border-radius: 10px;
+  width: 90%;
+  height: 300px;
+}
+ }
+
+
