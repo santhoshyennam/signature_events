@@ -1,10 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./styles.css";
 import { Link } from "react-router-dom";
-import data from '../../Utils/data.json'
+import data from "../../Utils/data.json";
 import { useState } from "react";
 import AlertView from "../../Atoms/AlertView";
-
 
 interface FormValues {
   name: string;
@@ -14,16 +13,13 @@ interface FormValues {
   message: string;
 }
 
-
-
 function ContactUs() {
-
   const initialState: FormValues = {
-    name: '',
-    email: '',
-    service: 'wedding',
-    budget: '2000$-5000$',
-    message: ''
+    name: "",
+    email: "",
+    service: "wedding",
+    budget: "2000$-5000$",
+    message: "",
   };
 
   const [values, setValues] = useState<FormValues>(initialState);
@@ -34,28 +30,28 @@ function ContactUs() {
   const submitCallback = async () => {
     try {
       setLoading(true);
-      setSuccess('')
+      setSuccess("");
       if (!values.name.trim()) {
-        throw new Error('Name is required');
+        throw new Error("Name is required");
       }
       if (!values.email.trim()) {
-        throw new Error('Email is required');
-      } 
+        throw new Error("Email is required");
+      }
       if (!values.service.trim()) {
-        throw new Error('Service is required');
-      } 
+        throw new Error("Service is required");
+      }
       if (!values.budget.trim()) {
-        throw new Error('Budget is required');
+        throw new Error("Budget is required");
       }
       if (!values.message.trim()) {
-        throw new Error('Message is required');
-      }  
-      setError('')
+        throw new Error("Message is required");
+      }
+      setError("");
 
-      const response = await fetch('http://localhost:3200/contactDetails', {
-        method: 'POST',
+      const response = await fetch("http://localhost:3200/contactDetails", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(values),
       });
@@ -65,7 +61,7 @@ function ContactUs() {
       }
       setValues(initialState);
       setSuccess("Details are submitted successfully");
-    } catch (error:any) {
+    } catch (error: any) {
       setError(`An error occurred during form submission: ${error.message}`);
     } finally {
       setLoading(false);
@@ -76,7 +72,7 @@ function ContactUs() {
     <div>
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={9}>
             <div className="contactLeftView">
               <Row>
                 <p className="letsTalk">{data.contactDetails.title}</p>
@@ -88,27 +84,38 @@ function ContactUs() {
               </Row>
 
               <Row>
-  <Col xs={12}>
-    <p className="emailHeading">Email</p>
-    <p className="emailDescription">{data.contactDetails.email}</p>
-  </Col>
-</Row>
+                <Col xs={12}>
+                  <p className="emailHeading">Email</p>
+                  <p className="emailDescription">
+                    {data.contactDetails.email}
+                  </p>
+                </Col>
+              </Row>
 
               <Row>
                 <p className="socialHeading">Social</p>
               </Row>
               <Row>
-                <Link to={data.contactDetails.instagram} className="socialMediaLink">
+                <Link
+                  to={data.contactDetails.instagram}
+                  className="socialMediaLink"
+                >
                   Instagram
                 </Link>
               </Row>
               <Row>
-                <Link to={data.contactDetails.twitter} className="socialMediaLink">
+                <Link
+                  to={data.contactDetails.twitter}
+                  className="socialMediaLink"
+                >
                   Twitter
                 </Link>
               </Row>
               <Row>
-                <Link to={data.contactDetails.facebook} className="socialMediaLink">
+                <Link
+                  to={data.contactDetails.facebook}
+                  className="socialMediaLink"
+                >
                   Faceboook
                 </Link>
               </Row>
@@ -116,7 +123,7 @@ function ContactUs() {
           </Col>
           <Col lg={6}>
             <div className="contactRightView">
-              <Row>
+              {/* <Row>
                 <p className="inputTitle">Name</p>
               </Row>
               <Row lg={7}>
@@ -180,7 +187,8 @@ function ContactUs() {
               <Col lg={12}>
              <AlertView setShow={setSuccess} title="Congrats!" description={success} variant="success" />
               </Col>
-              </Row>}
+              </Row>} */}
+              {/* <img src="images/saree function/11.jpg" alt="" width={'100%'} height={'500px'} /> */}
             </div>
           </Col>
         </Row>

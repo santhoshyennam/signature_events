@@ -1,7 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./styles.css";
 import data from '../../Utils/data.json'
+
 function AboutUs() {
+  console.log(data.about.description1);
   return (
     <div className="about">
       <Container>

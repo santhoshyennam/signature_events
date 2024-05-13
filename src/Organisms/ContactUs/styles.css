@@ -20,20 +20,20 @@
 
 .contactLeftView,
 .contactRightView {
-  padding: 50px;
+  padding: 40px 0px 10px 50px;
 }
 
 .emailHeading,
 .socialHeading {
   color: var(--MAROON, #952043);
-  font-family: Abu Dhabi;
+  font-family: Satoshi Variable;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px; /* 125% */
   letter-spacing: 0.96px;
   text-align: start !important;
-  padding-top: 54px;
+  padding-top: 30px;
 }
 
 .emailDescription {
@@ -106,7 +106,8 @@
 
 /* Media query for desktop */
 @media (min-width: 768px) {
-  .emailDescription,.socialMediaLink {
+  .emailDescription,
+  .socialMediaLink {
     font-size: 20px;
     /* Add other desktop-specific styles here */
   }
@@ -114,7 +115,8 @@
 
 /* Media query for mobile */
 @media (max-width: 767px) {
-  .emailDescription,.socialMediaLink {
+  .emailDescription,
+  .socialMediaLink {
     font-size: 14px;
     /* Add other mobile-specific styles here */
   }
@@ -128,34 +130,33 @@
     text-align: start !important;
   }
   .emailHeading,
-.socialHeading {
-  color: var(--MAROON, #952043);
-  font-family: Abu Dhabi;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 0px; /* 125% */
-  padding-top: 20px;
-}
-.socialMediaLink {
-  padding-top: 8px;
-}
-.inputTitle {
-  font-size: 16px;
-  font-weight: 400;
-}
-.inputBox {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-.contactSubmitButton {
-  margin-top: 10px;
-  width: 100%;
-  margin-left: 10px;
-  margin-bottom: 0px;
-}
-.contactRightView {
-  margin-top: -60px;
-  margin-bottom: -80px;
-}
-
+  .socialHeading {
+    color: var(--MAROON, #952043);
+    font-family: Satoshi Variable;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px; /* 125% */
+    padding-top: 20px;
+  }
+  .socialMediaLink {
+    padding-top: 8px;
+  }
+  .inputTitle {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .inputBox {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .contactSubmitButton {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+  .contactRightView {
+    margin-top: -60px;
+    margin-bottom: -80px;
+  }
 }

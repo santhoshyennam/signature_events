@@ -10,7 +10,7 @@ function Gallery() {
   return (
     <div>
       <Banner title1={data.banner.gallery.title1} title2={data.banner.gallery.title2}  />
-      <Container style={{ marginTop: '10px'}}>
+      <Container style={{ marginTop: '30px',marginBottom:'40px'}}>
         <Row className="galleryItems">
           {
             data.galleryItems.map((item:any) => {
@@ -23,7 +23,7 @@ function Gallery() {
           }
         </Row>
       </Container>
-      <SubmitForm />
+      {/* <SubmitForm /> */}
     </div>
   );
 }

@@ -1,7 +1,9 @@
+import { Container } from "react-bootstrap";
 import Banner from "../../Molecules/Banner";
 import TestimonialsCarousel from "../../Molecules/TestimonialsCarousel";
 import TestimonialsHeading from "../../Molecules/TestimonialsHeading";
 import TestimonialsPeople from "../../Molecules/TestimonialsPeople";
+import GallerySuggestions from "../../Organisms/GallerySuggestions";
 import SubmitForm from "../../Organisms/SubmitForm";
 import data from '../../Utils/data.json'
 
@@ -12,7 +14,11 @@ function Testimonials() {
       <TestimonialsHeading title={data.testimonials.title} />
       <TestimonialsCarousel />
       <TestimonialsPeople />
-      <SubmitForm />
+      <Container>
+      <div style={{ width: '100%',height: '1px',backgroundColor: '#c59771',marginTop: '40px'}}></div>
+      <GallerySuggestions title="Our Gallery" showAll={true} />
+      </Container>
+      {/* <SubmitForm /> */}
     </div>
   );
 }

@@ -40,7 +40,7 @@ function GallerySuggestions(props:any) {
             }
             </Row>
         </Container>
-        <div className="gallerySuggestionsHr"></div>
+        {/* <div className="gallerySuggestionsHr"></div> */}
       </div>
     );
   }

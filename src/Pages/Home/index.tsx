@@ -19,7 +19,7 @@ function Home() {
       <div className="homeHr"></div>
       <GallerySuggestions title="Our Gallery" showAll={true} />
       </Container>
-      <SubmitForm />
+      {/* <SubmitForm /> */}
     </div>
   );
 }

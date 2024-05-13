@@ -21,7 +21,7 @@ function Footer() {
           {
             steps.map((step)=> {
               return (
-                <Col lg={"auto"} xs={3} className="title" style={{ cursor: 'pointer'}}>
+                <Col lg={1} md={2} sm={2} xs={3} className="title" style={{ cursor: 'pointer'}}>
                   <Link to={"/"+step.toLowerCase()} style={{textDecoration:'none',color:'inherit'}} >
                 <p style={{ paddingTop: "10px" }}>{step}</p>
                 </Link>
@@ -29,7 +29,7 @@ function Footer() {
               )
             })
           }
-          <Col lg={{ span: 4, offset: 4 }}>
+          {/* <Col lg={{ span: 4, offset: 4 }}>
             <Row>
               <Col>
                 <p>Follow us on:</p>
@@ -46,20 +46,18 @@ function Footer() {
                   
               </Col>
             </Row>
-          </Col>
+          </Col> */}
         </Row>
         <div className="hr"></div>
         <Row>
-          <Col lg={2} xs={6}>
-            <p> Terms & Conditions </p>
+        <Col  xs={6}>
+          <div style={{display:'flex'}}>
+          <p> Terms & Conditions </p>
+          <div className="vr" style={{marginLeft:'10px',marginTop:'5px'}}></div>
+          <p style={{marginLeft:'10px'}}>Privacy Policy</p>
+          </div>
           </Col>
-          <Col lg={1} xs={1}>
-            <div className="vr"></div>
-          </Col>
-          <Col lg={2} xs={5}>
-            <p>Privacy Policy</p>
-          </Col>
-          <Col lg={7}>
+          <Col lg={6} className="d-flex justify-content-end">
             © SignatureEvents 2023. All right reserved
           </Col>
         </Row>

@@ -15,7 +15,8 @@ function Events() {
       <Row>
         <Col>
           <p className="eventsTitle">
-          {data.homeEvents.title2[0]} <span className="styleEvent">{data.homeEvents.title2[1]} </span> {data.homeEvents.title2[2]}
+          {/* {data.homeEvents.title2[0]} <span className="styleEvent">{data.homeEvents.title2[1]} </span> {data.homeEvents.title2[2]} */}
+          {data.homeEvents.title2[0]} {data.homeEvents.title2[1]} {data.homeEvents.title2[2]}
           </p>
         </Col>
       </Row>

@@ -92,7 +92,7 @@ function Header() {
                       </Col>
                     </Nav.Link>
                   ))}
-                  <Nav.Link>
+                  {/* <Nav.Link>
                     <GetAQuote
                       styles={{
                         marginTop: "14px",
@@ -103,7 +103,7 @@ function Header() {
                   
                       }}
                     />
-                  </Nav.Link>
+                  </Nav.Link> */}
                 </Nav>
               </Navbar.Collapse>
             </Container>

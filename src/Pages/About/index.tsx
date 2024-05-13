@@ -10,13 +10,14 @@ function About() {
     <div>
       <Banner title1={data.banner.about.title1} title2={data.banner.about.title2} />
       <AboutUs />
-      <img src="Images/myNetwork.png" alt=".." width="100%" />
-      <ContactUs />
       <Container>
-      <div style={{ width: '100%',height: '1px',backgroundColor: '#c59771',marginTop: '80px'}}></div>
+      <div style={{ width: '100%',height: '1px',backgroundColor: '#c59771',marginTop: '40px'}}></div>
+      {/* <img src="Images/myNetwork.png" alt=".." width="100%" /> */}
+      <ContactUs />
+      <div style={{ width: '100%',height: '1px',backgroundColor: '#c59771'}}></div>
       <GallerySuggestions title="Our Gallery" showAll={true} />
       </Container>
-      <SubmitForm/>
+      {/* <SubmitForm/> */}
     </div>
   );
 }

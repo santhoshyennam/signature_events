@@ -62,7 +62,7 @@ function GalleryImages() {
       </Container>
       <div className="galleryImagesHr"></div>
       <GallerySuggestions/>
-      <SubmitForm />
+      {/* <SubmitForm /> */}
       </div>
     );
   }
