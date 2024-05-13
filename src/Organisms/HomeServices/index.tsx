@@ -15,7 +15,8 @@ function HomeServices() {
       <Row>
         <Col>
           <p className="servicesTitle">
-          {data.homeServices.title2[0]} <span className="styleService">{data.homeServices.title2[1]} </span> {data.homeServices.title2[2]}
+          {/* {data.homeServices.title2[0]} <span className="styleService">{data.homeServices.title2[1]} </span> {data.homeServices.title2[2]} */}
+          {data.homeServices.title2[0]} {data.homeServices.title2[1]} {data.homeServices.title2[2]}
           </p>
         </Col>
       </Row>

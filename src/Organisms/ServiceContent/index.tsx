@@ -10,8 +10,8 @@ function ServiceContent() {
       <Row>
         <Col>
           <p className="servicesTitle">
-            {data.services.title[0]} <span className="styleService">{data.services.title[1]} </span> {data.services.title[2]}
-            YOU!
+            {/* {data.services.title[0]} <span className="styleService">{data.services.title[1]} </span> {data.services.title[2]} */}
+            {data.services.title[0]} {data.services.title[1]} {data.services.title[2]}
           </p>
         </Col>
       </Row>

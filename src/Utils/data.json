@@ -3,7 +3,7 @@
 
     },
     "services": {
-        "title":["LET US","dazzle","AND INSPIRE YOU!"],
+        "title":["LET US","DAZZLE","AND INSPIRE YOU!"],
         "description":"",
         "services": [
             {
@@ -296,7 +296,7 @@
         "title": "About Us",
         "description1":"Our adventure begins with a dream, a dream of making your favorite fantasies come true. With our passionate team, we set out to craft celebrations that are not only gorgeous and smooth but also unforgettable. ",
         "description2":"Imagine us as your fairy godparents, waving our magic wands to sprinkle a little extra sparkle on your special day. We're here to turn “once upon a time” into “happily ever after,” with a touch of whimsy and lots of love. Let's make some magic together! 🌟✨",
-        "imageUrl": "/Images/decor_2.jpg"
+        "imageUrl": "/Images/wedding/pic54.jpg"
     },
     "homeLayout": {
         "title": ["Experience","unparalleled","elegance","& luxury in every","moment!"],
@@ -309,7 +309,7 @@
     },
     "homeEvents": {
         "title1": "OUR PROMISE",
-        "title2": ["EVERY","event","BEGINS WITH A STORY."],
+        "title2": ["EVERY","EVENT","BEGINS WITH A STORY."],
         "steps": [
              {
                 "title1":"Initial Consultation",
@@ -335,7 +335,7 @@
     },
     "homeServices": {
         "title1": "SERVICES",
-        "title2": ["LET US","dazzle","AND INSPIRE YOU!"],
+        "title2": ["LET US","DAZZLE","AND INSPIRE YOU!"],
         "imageGrid": [
             {
                 "id":"1",

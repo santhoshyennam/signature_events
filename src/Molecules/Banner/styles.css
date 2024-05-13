@@ -1,5 +1,3 @@
-
-  
 .bannerText1,
 .bannerText2 {
   position: relative; /* Ensure that the text is not affected by the backdrop-filter */
@@ -7,13 +5,13 @@
 }
 .bannerText2 {
   color: var(--MAROON, #952043);
-  font-family: Abu Dhabi;
+  font-family: Satoshi Variable;
   font-size: 40px;
   font-style: normal;
   margin-left: 40px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-  
+
 .backgroundBanner::before {
   content: "";
   position: absolute;
@@ -41,21 +39,21 @@
 
 .bannerText1 {
   color: var(--MAROON, #952043);
-  font-family: Abu Dhabi;
+  font-family: Satoshi Variable;
   font-style: normal;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 /* Media query for desktop */
 @media (min-width: 768px) {
   .backgroundBanner {
     height: 200px;
   }
-  
+
   .bannerText1 {
     font-size: 44px;
     font-weight: 400;
   }
-  
+
   .bannerText2 {
     font-size: 40px;
     font-weight: 400;
@@ -68,14 +66,13 @@
   .backgroundBanner {
     height: 110px;
   }
-  
+
   .bannerText1 {
     font-size: 26px;
   }
-  
+
   .bannerText2 {
     font-size: 30px;
     line-height: 20%; /* 64.96px */
-
   }
 }
