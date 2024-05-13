@@ -159,4 +159,9 @@
     margin-top: -60px;
     margin-bottom: -80px;
   }
+
+  .contactLeftView,
+.contactRightView {
+  padding: 40px 0px 30px 50px;
+}
 }
