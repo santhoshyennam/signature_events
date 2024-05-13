@@ -11,7 +11,7 @@ function Services() {
       <Banner title1={data.banner.services.title1} title2={data.banner.services.title2} />
       <ServiceContent />
       <Container>
-      <div style={{ width: '100%',height: '1px',backgroundColor: '#c59771',marginTop: '40px'}}></div>
+      <div style={{ width: '100%',height: '1px',backgroundColor: '#c59771'}}></div>
       <GallerySuggestions title="Our Gallery" showAll={true} />
       </Container>
       {/* <SubmitForm /> */}

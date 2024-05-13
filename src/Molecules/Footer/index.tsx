@@ -50,14 +50,14 @@ function Footer() {
         </Row>
         <div className="hr"></div>
         <Row>
-        <Col  xs={6}>
+        <Col lg={6} xs={12}>
           <div style={{display:'flex'}}>
           <p> Terms & Conditions </p>
           <div className="vr" style={{marginLeft:'10px',marginTop:'5px'}}></div>
           <p style={{marginLeft:'10px'}}>Privacy Policy</p>
           </div>
           </Col>
-          <Col lg={6} className="d-flex justify-content-end">
+          <Col lg={6} xs={12}  className="d-flex justify-content-end">
             © SignatureEvents 2023. All right reserved
           </Col>
         </Row>
